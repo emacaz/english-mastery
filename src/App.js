@@ -11,10 +11,10 @@ import { Contact } from './components/Contact'
 
 function App() {
   return (
-    <main>
-      <Hero /><hr/>
+    <main className='h-screen px-20 py-8'>
+      <Hero />
       
-      <Content /><hr/>
+      {/* <Content /><hr/>
 
       <Instructor /><hr/>
 
@@ -30,7 +30,7 @@ function App() {
       
       <Prices /><hr/>
       
-      <Contact /><hr/>
+      <Contact /><hr/> */}
     </main>
   )
 }
