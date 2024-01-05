@@ -12,16 +12,25 @@ import { Contact } from './components/Contact'
 function App() {
   return (
     <main>
-      <Hero />
-      <Content />
-      <Instructor />
-      <Services />
-      <Start />
-      <PracticeRoom />
-      <FAQ />
-      <Testimonials />
-      <Prices />
-      <Contact />
+      <Hero /><hr/>
+      
+      <Content /><hr/>
+
+      <Instructor /><hr/>
+
+      <Services /><hr/>
+
+      <Start /><hr/>
+
+      <PracticeRoom /><hr/>
+
+      <FAQ /><hr/>
+
+      <Testimonials /><hr/>
+      
+      <Prices /><hr/>
+      
+      <Contact /><hr/>
     </main>
   )
 }
