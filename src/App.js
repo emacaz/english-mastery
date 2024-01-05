@@ -4,7 +4,7 @@ import { Services } from './components/Services/Services';
 import { Instructor } from './components/Instructor';
 import { Start } from './components/Start'
 import { PracticeRoom } from './components/PracticeRoom'
-import { FAQ } from './components/FAQ'
+import { FAQ } from './components/FAQ/FAQ'
 import { Testimonials } from './components/Testimonials/Testimonials'
 import { Prices } from './components/Prices/Prices'
 import { Contact } from './components/Contact'
