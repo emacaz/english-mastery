@@ -13,11 +13,11 @@ body {
 
 .Hero::before {
   content: "";
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 80%;
   z-index: -1;
   background-image: url('/src/images/hero-img.jpeg');
   background-position: center center;

@@ -1,10 +1,11 @@
 import React from "react";
+import instructor_img from '../images/instructor-img.png'
 
 export function Instructor() {
     return (
-        <>
+        <div className="my-12 grid grid-cols-2">
             <div>
-                <h1>Sobre el Instructor</h1>
+                <h1 className="text-left text-4xl font-bold">Sobre el Instructor</h1>
                 <p>
                     Emanuel Castillo (EmanuelCastillo.com)
                     lleva más de 10 años en la enseñanza del idioma a
@@ -19,8 +20,8 @@ export function Instructor() {
                 </p>
             </div>
             <div>
-                <img src="" alt="instructor" />
+                <img src={instructor_img} alt="instructor" />
             </div>
-        </>
+        </div>
     );
 }

@@ -14,11 +14,11 @@ function App() {
     <main className='h-screen px-20 py-8'>
       <Hero />
       
-      {/* <Content /><hr/>
+      <Content />
 
-      <Instructor /><hr/>
+      <Instructor />
 
-      <Services /><hr/>
+      {/* <Services /><hr/>
 
       <Start /><hr/>
 
