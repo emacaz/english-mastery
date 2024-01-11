@@ -26,9 +26,7 @@ export function Content() {
 
     return (
         <div className="mt-48 py-12">
-            <h1
-                className="text-center text-4xl font-bold pb-3 mb-8"
-            >Qué contiene el English Mastery</h1>
+            <h1 className="text-center text-4xl font-bold pb-3 mb-8" >Qué contiene el English Mastery</h1>
             
             <div className="grid grid-cols-3 gap-10">
                 <ContentCard contentItem={contentItem1} />

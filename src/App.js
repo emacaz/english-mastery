@@ -18,19 +18,19 @@ function App() {
 
       <Instructor />
 
-      {/* <Services /><hr/>
+      <Services />
 
-      <Start /><hr/>
+       <Start />
 
-      <PracticeRoom /><hr/>
+      {/*<PracticeRoom />
 
-      <FAQ /><hr/>
+      <FAQ />
 
-      <Testimonials /><hr/>
+      <Testimonials />
       
-      <Prices /><hr/>
+      <Prices />
       
-      <Contact /><hr/> */}
+      <Contact />*/}
     </main>
   )
 }
