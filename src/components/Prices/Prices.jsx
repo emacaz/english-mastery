@@ -45,14 +45,13 @@ const permanentPrice = {
 
 export function Prices() {
     return (
-        <>
-            <h1>Precios</h1>
-
-            <div>
+        <div className="mt-[6rem]">
+            <h1 className="text-4xl font-bold">Precios</h1>
+            <div className="grid grid-cols-3 gap-2">
                 <PriceCard priceCard={monthPrice} />
                 <PriceCard priceCard={yearPrice} />
                 <PriceCard priceCard={permanentPrice} />
             </div>
-        </>
+        </div>
     )
 }

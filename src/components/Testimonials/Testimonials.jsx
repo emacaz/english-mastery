@@ -1,31 +1,35 @@
 import React from "react";
 import { TestimonialCard } from "./TestimonialCard";
+import testimonial1_img from "../../images/testimonial1-img.jpeg"
+import testimonial2_img from "../../images/testimonial2-img.jpeg"
+import testimonial3_img from "../../images/testimonial3-img.jpeg"
 
 const testimonial1 = {
     name: "Brayan",
-    userImg: "",
+    userImg: testimonial1_img,
     description:
         "En English Mastery he aprendido a conocer mejor el inglés, como también a mejorar mis habilidades en el idioma, del mismo modo me gusta lo dinámico que es el curso ya que se pueda estudiar en cualquier momento del día, gracias a English Mastery he logrado evolucionar en mi trabajo ya que el 90% es en inglés.",
 };
 
 const testimonial2 = {
     name: "José Gudiel",
-    userImg: "",
+    userImg: testimonial2_img,
     description:
         "English Mastery me párese super bien por que es un curso muy bueno y muy completo aparte de eso el teacher explica muy bien yo lo recomiendo esta muy bueno ami en lo personal me ha ayudado mucho.",
 };
 
 const testimonial3 = {
     name: "Tatiana",
-    userImg: "",
+    userImg: testimonial3_img,
     description:
         "Es cool la forma en que implementas la metodología, es bueno ver vocabulario y de paso oraciones donde lo usamos.",
 };
 
 export function Testimonials() {
     return (
-        <>
-            <div>
+        <div className="mt-[8rem]">
+            <h1 className="text-center text-4xl font-bold pb-3 mb-[4rem]">Qué dicen nuestros Estudiantes</h1>
+            <div className="grid grid-cols-3 gap-12">
                 <TestimonialCard testimonial={testimonial1} />
                 <TestimonialCard testimonial={testimonial2} />
                 <TestimonialCard testimonial={testimonial3} />
@@ -33,6 +37,6 @@ export function Testimonials() {
             <div>
                 <span>• • •</span>
             </div>
-        </>
+        </div>
     );
 }

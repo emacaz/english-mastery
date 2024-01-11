@@ -26,11 +26,11 @@ function App() {
 
       <FAQ />
 
-      {/* <Testimonials />
+      <Testimonials />
       
       <Prices />
       
-      <Contact />*/}
+      {/* <Contact />*/}
     </main>
   )
 }

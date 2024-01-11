@@ -19,7 +19,7 @@ const question3 = {
 export function FAQ() {
     return (
         <div className="my-11">
-            <h1 className="text-center text-4xl font-bold pb-3 mb-8">Preguntas frecuentes</h1>
+            <h1 className="text-center text-4xl font-bold pb-3 mt-[8rem]">Preguntas frecuentes</h1>
             <FAQCard question={question1} />
             <FAQCard question={question2} />
             <FAQCard question={question3} />
