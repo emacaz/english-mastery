@@ -22,9 +22,9 @@ function App() {
 
        <Start />
 
-      {/*<PracticeRoom />
+      <PracticeRoom />
 
-      <FAQ />
+      {/* <FAQ />
 
       <Testimonials />
       
