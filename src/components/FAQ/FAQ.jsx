@@ -18,11 +18,11 @@ const question3 = {
 
 export function FAQ() {
     return (
-        <>
-            <h1>Preguntas frecuentes</h1>
+        <div className="my-11">
+            <h1 className="text-center text-4xl font-bold pb-3 mb-8">Preguntas frecuentes</h1>
             <FAQCard question={question1} />
             <FAQCard question={question2} />
             <FAQCard question={question3} />
-        </>
+        </div>
     );
 }

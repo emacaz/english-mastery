@@ -24,9 +24,9 @@ function App() {
 
       <PracticeRoom />
 
-      {/* <FAQ />
+      <FAQ />
 
-      <Testimonials />
+      {/* <Testimonials />
       
       <Prices />
       
