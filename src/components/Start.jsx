@@ -1,7 +1,8 @@
 import React from "react";
+import Button from "./Button";
 
 export function Start() {
     return (
-        <button>Quiero empezar!</button>
+        <Button button_text={"Quiero empezar!"}/>
     )
 }
