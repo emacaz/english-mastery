@@ -11,7 +11,7 @@ import { Contact } from './components/Contact'
 
 function App() {
   return (
-    <main className='h-screen px-20 py-8'>
+    <main className='py-8'>
       <Hero />
       
       <Content />
@@ -30,7 +30,7 @@ function App() {
       
       <Prices />
       
-      {/* <Contact />*/}
+      <Contact />
     </main>
   )
 }

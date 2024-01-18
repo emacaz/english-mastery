@@ -3,7 +3,7 @@ import instructor_img from '../images/instructor2-img.png'
 
 export function Instructor() {
     return (
-        <div className="my-[8rem] grid grid-cols-2">
+        <div className="my-[6rem] grid grid-cols-2 px-20">
             <div className="px-[3rem]">
                 <h1 className="text-left text-4xl font-bold mb-[3rem]">Sobre el Instructor</h1>
                 <p className="mb-10 text-xl">

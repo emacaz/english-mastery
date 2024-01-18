@@ -27,7 +27,7 @@ const testimonial3 = {
 
 export function Testimonials() {
     return (
-        <div className="mt-[8rem]">
+        <div className="bg-sky-100 px-20 py-[4rem]">
             <h1 className="text-center text-4xl font-bold pb-3 mb-[4rem]">Qué dicen nuestros Estudiantes</h1>
             <div className="grid grid-cols-3 gap-12">
                 <TestimonialCard testimonial={testimonial1} />

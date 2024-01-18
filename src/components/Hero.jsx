@@ -2,8 +2,8 @@ import React from "react";
 
 export function Hero() {
     return (
-        <div className="">
-            <div className="Hero ml-20 mt-36">
+        <div className="Hero">
+            <div className="ml-20 mt-36 px-20 md: mt-7">
                 <h1 className="text-6xl font-semibold mb-10 leading-normal">
                     Habla Inglés, Conecta <br/> con el mundo! 🌍
                 </h1>

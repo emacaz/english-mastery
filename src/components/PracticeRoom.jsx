@@ -4,7 +4,7 @@ import Button from "./Button";
 
 export function PracticeRoom() {
     return (
-        <div className="my-16 grid grid-cols-2">
+        <div className="grid grid-cols-2 bg-sky-100 px-20 py-14">
             <div className="px-8">
                 <h1 className="text-left text-4xl font-bold mb-4">Salas de Práctica</h1>
                 <p className="text-xl">

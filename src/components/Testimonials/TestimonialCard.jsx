@@ -2,7 +2,7 @@ import React from "react";
 
 export function TestimonialCard({ testimonial }) {
     return (
-        <div>
+        <div className="p-5">
             <img
                 className="rounded-full w-16 mb-4"
                 src={testimonial.userImg}

@@ -24,8 +24,8 @@ export function Services() {
             "Estamos pendiente de ti, para ayudarte a mejorar y a hablar más rápido el idioma, todos los días del año a cualquier hora del día.",
     };
     return (
-        <div className="mt-48 py-12">
-            <h1 className="text-center text-4xl font-bold pb-3 mb-8">
+        <div className="py-12 bg-sky-100 px-20">
+            <h1 className="text-center text-4xl font-bold pb-3 mb-[4rem]">
                 Qué contiene el English Mastery
             </h1>
 
