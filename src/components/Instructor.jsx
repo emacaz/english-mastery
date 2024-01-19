@@ -5,7 +5,7 @@ export function Instructor() {
     return (
         <div className="p-8 flex flex-wrap justify-center">
             <div className="">
-                <h1 className="text-3xl leading-normal my-7 font-semibold">Sobre el Instructor</h1>
+                <h1 className="text-2xl leading-normal my-7 font-semibold">Sobre el Instructor</h1>
                 <p className="mb-10 text-base">
                     Emanuel Castillo (<a className="text-sky-600 underline" href="https://EmanuelCastillo.com" target="_blank">EmanuelCastillo.com</a>)
                     lleva más de 10 años en la enseñanza del idioma a

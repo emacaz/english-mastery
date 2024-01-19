@@ -24,8 +24,8 @@ export function Services() {
             "Estamos pendiente de ti, para ayudarte a mejorar y a hablar más rápido el idioma, todos los días del año a cualquier hora del día.",
     };
     return (
-        <div className="py-12 bg-sky-100 px-8">
-            <h1 className="text-center text-4xl font-bold pb-3 mb-[4rem]">
+        <div className="py-12 bg-blue-50 px-8">
+            <h1 className="text-center text-2xl font-semibold pb-3 mb-3">
                 Servicios
             </h1>
 
