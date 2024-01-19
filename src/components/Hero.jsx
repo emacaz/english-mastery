@@ -11,7 +11,7 @@ export function Hero() {
                     El único programa con charlas en vivo para conectar y hablar <br/>
                     en Inglés con personas reales de todo el mundo.
                 </p>
-                <button className="py-3 w-full bg-slate-600 text-white p-2 rounded-lg text-xl hover:bg-slate-800">
+                <button className="py-3 w-full bg-[#545e67] text-white p-2 rounded-lg text-xl hover:bg-slate-800">
                     Conocer el programa
                 </button>
             </div>

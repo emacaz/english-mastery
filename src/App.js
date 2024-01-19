@@ -20,9 +20,9 @@ function App() {
 
       <Services />
 
-      {/* <Start />
+      <Start />
 
-      <PracticeRoom />
+      {/* <PracticeRoom />
 
       <FAQ />
 
