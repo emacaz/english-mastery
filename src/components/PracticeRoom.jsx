@@ -4,13 +4,13 @@ import Button from "./Button";
 
 export function PracticeRoom() {
     return (
-        <div className="grid grid-cols-2 bg-sky-100 px-20 py-14">
-            <div className="px-8">
-                <h1 className="text-left text-4xl font-bold mb-4">Salas de Práctica</h1>
-                <p className="text-xl">
+        <div className="flex flex-wrap justify-center gap-8 bg-blue-50 p-8">
+            <div className="">
+                <h1 className="text-left text-3xl font-semibold mt-10 mb-4">Salas de Práctica</h1>
+                <p className="text-base">
                 Salas interactivas con personas de todo el mundo donde hablas en Inglés desde el primer día. Conoce culturas, domina el idioma al mejor precio del mercado sin endeudarte.
                 </p>
-                <button className="bg-slate-600 my-5 text-white p-2 rounded-lg w-60 text-lg hover:bg-slate-800">
+                <button className="bg-[#545e67] text-white p-2 my-5 w-full rounded-lg text-lg hover:bg-slate-800">
                     Únete a English Mastery
                 </button>
             </div>

@@ -11,7 +11,7 @@ import { Contact } from './components/Contact'
 
 function App() {
   return (
-    <main className='py-8'>
+    <main className='pt-8'>
       <Hero />
       
       <Content />
@@ -22,9 +22,9 @@ function App() {
 
       <Start />
 
-      {/* <PracticeRoom />
+      <PracticeRoom />
 
-      <FAQ />
+      {/* <FAQ />
 
       <Testimonials />
       
