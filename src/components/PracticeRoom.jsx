@@ -8,7 +8,7 @@ export function PracticeRoom() {
             <div className="">
                 <h1 className="text-left text-3xl font-semibold mt-10 mb-4">Salas de Práctica</h1>
                 <p className="text-base">
-                Salas interactivas con personas de todo el mundo donde hablas en Inglés desde el primer día. Conoce culturas, domina el idioma al mejor precio del mercado sin endeudarte.
+                Salas interactivas con personas de todo el mundo donde hablas en Inglés desde el primer día. Conoce culturas y dominas el idioma al mejor precio del mercado sin endeudarte.
                 </p>
                 <button className="bg-[#545e67] text-white p-2 my-5 w-full rounded-lg text-lg hover:bg-slate-800">
                     Únete a English Mastery

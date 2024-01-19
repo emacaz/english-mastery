@@ -22,7 +22,7 @@ body {
   background-image: url('/src/images/hero-img.jpeg');
   background-position: center center;
   background-size: cover;
-  opacity: 0.2; /* Valor para cambiar la transparencia */
+  opacity: 0.4; /* Valor para cambiar la transparencia */
 }
 
 code {

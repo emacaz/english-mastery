@@ -25,7 +25,7 @@ export function Content() {
     };
 
     return (
-        <div className="bg-blue-50 px-8 mt-[7rem] py-12">
+        <div className="bg-blue-50 px-8 mt-[7rem] py-12 sm:m-0">
             <h1 className="text-2xl mb-2 text-center font-bold pb-3" >Qué contiene el English Mastery</h1>
             
             <div className="flex flex-wrap justify-center gap-8">

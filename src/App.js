@@ -11,12 +11,12 @@ import { Contact } from './components/Contact'
 
 function App() {
   return (
-    <main className='pt-8'>
+    <main className='"pt-8 md:p-0'>
       <Hero />
       
       <Content />
 
-      <Instructor />
+      {/* <Instructor />
 
       <Services />
 
@@ -30,7 +30,7 @@ function App() {
       
       <Prices />
       
-      {/* <Contact /> */}
+      <Contact /> */}
     </main>
   )
 }
