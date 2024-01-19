@@ -24,12 +24,12 @@ export function Services() {
             "Estamos pendiente de ti, para ayudarte a mejorar y a hablar más rápido el idioma, todos los días del año a cualquier hora del día.",
     };
     return (
-        <div className="py-12 bg-sky-100 px-20">
+        <div className="py-12 bg-sky-100 px-8">
             <h1 className="text-center text-4xl font-bold pb-3 mb-[4rem]">
-                Qué contiene el English Mastery
+                Servicios
             </h1>
 
-            <div className="grid grid-cols-3 gap-10">
+            <div className="flex flex-wrap justify-center gap-8">
                 <ContentCard contentItem={serviceItem1} />
                 <ContentCard contentItem={serviceItem2} />
                 <ContentCard contentItem={serviceItem3} />

@@ -7,7 +7,7 @@ export function Hero() {
                 <h1 className="text-3xl leading-normal mb-2 md:text-6xl font-semibold">
                     Habla Inglés, Conecta <br/> con el mundo! 🌍
                 </h1>
-                <p className="mb-10 text-xl">
+                <p className="mb-10 text-base">
                     El único programa con charlas en vivo para conectar y hablar <br/>
                     en Inglés con personas reales de todo el mundo.
                 </p>

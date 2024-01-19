@@ -16,11 +16,11 @@ function App() {
       
       <Content />
 
-      {/* <Instructor />
+      <Instructor />
 
       <Services />
 
-       <Start />
+      {/* <Start />
 
       <PracticeRoom />
 

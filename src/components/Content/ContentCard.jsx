@@ -9,7 +9,7 @@ export function ContentCard({ contentItem }) {
                 alt="content-img"
             />
             <h2 className="text-2xl text-center font-semibold mb-3">{contentItem.title}</h2>
-            <p className="text-center mb-10 text-xl">{contentItem.description}</p>
+            <p className="text-center mb-10 text-base">{contentItem.description}</p>
         </div>
     )
 }
