@@ -24,11 +24,11 @@ function App() {
 
       <PracticeRoom />
 
-      {/* <FAQ />
+      <FAQ />
 
       <Testimonials />
       
-      <Prices />
+      {/* <Prices />
       
       <Contact /> */}
     </main>

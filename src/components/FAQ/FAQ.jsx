@@ -12,14 +12,14 @@ const question2 = {
 }
 
 const question3 = {
-    question: '¿Hay más idiomas? ¿Para qué edad es?',
+    question: '¿Hay más idiomas? ¿Para qué edades?',
     answer: 'Actualmente nos enfocamos en la enseñanza del inglés para hablantes de español. Nuestro programa está diseñado para personas de todas las edades que deseen mejorar sus habilidades en inglés. Adaptamos el enfoque para satisfacer las necesidades específicas de cada grupo de edad, proporcionando un ambiente de aprendizaje efectivo y personalizado.'
 }
 
 export function FAQ() {
     return (
-        <div className="my-11 px-20">
-            <h1 className="text-center text-4xl font-bold pb-3 mt-[4rem] mb-[5rem]">Preguntas frecuentes</h1>
+        <div className="my-11 px-8">
+            <h1 className="text-center text-3xl font-semibold">Preguntas frecuentes</h1>
             <FAQCard question={question1} />
             <FAQCard question={question2} />
             <FAQCard question={question3} />

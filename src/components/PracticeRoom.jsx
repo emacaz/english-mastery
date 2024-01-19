@@ -16,7 +16,7 @@ export function PracticeRoom() {
             </div>
             <div>
                 <img
-                    className="rounded-2xl"
+                    className="rounded-2xl mb-10"
                     src={practice_room_img}
                     alt="practice-room"
                 />
