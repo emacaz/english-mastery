@@ -8,21 +8,21 @@ import perma_sus_img from "../../images/perma-sus-img.jpeg";
 const monthPrice = {
   imgSource: month_sus_img,
   popular: false,
-  type: "Suscripción mensual",
+  type: "Suscripción de pago cada mes",
   value: 25,
-  periocity: "Mes",
+  periocity: "Suscripción mensual",
   description: "Descripción de membresía.",
-  features: ["Pago recurrente cada mes", "Acceso al programa EM", "Soporte 24/7"],
+  features: ["Acceso al programa EM", "Soporte 24/7", "Acceso a Salas de Práctica"],
 };
 
 const yearPrice = {
   imgSource: year_sus_img,
   popular: true,
-  type: "Suscripción anual",
+  type: "Suscripción de pago cada año",
   value: 200,
-  periocity: "Año",
+  periocity: "Suscripción anual",
   description: "Descripción de membresía.",
-  features: ["Pago recurrente cada año", "4 meses gratis", "Feature 3"],
+  features: ["Todos los beneficios del pago mensual", "4 meses gratis"],
 };
 
 const permanentPrice = {
@@ -32,14 +32,14 @@ const permanentPrice = {
   value: 300,
   periocity: "Acceso permanente",
   description: "Descripción de membresía.",
-  features: ["Feature 1", "Feature 2", "Feature 3"],
+  features: ["Acceso a las actualizaciones", "Accedes a las Salas de Práctica", "Soporte 24/7"],
 };
 
 export function Prices() {
   return (
     <div className="mt-[6rem] px-20">
       <h1 className="text-4xl font-bold text-center mb-10">Precios</h1>
-      <div className="flex gap-8">
+      <div className="flex flex-wrap justify-center gap-8">
         <PriceCard priceCard={monthPrice} />
         <PriceCard priceCard={yearPrice} />
         <PriceCard priceCard={permanentPrice} />

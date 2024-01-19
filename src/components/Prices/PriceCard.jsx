@@ -3,7 +3,7 @@ import Button from "../Button";
 
 function PriceCard({ priceCard }) {
   return (
-    <div className="border-solid border-2 border-gray-500 rounded-3xl p-3">
+    <div className="border-solid border-2 border-gray-500 rounded-3xl p-3 max-w-[400px]">
       <img
         className="m-auto rounded-3xl object-cover h-80 mb-5 w-full"
         src={priceCard.imgSource}
