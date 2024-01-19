@@ -2,7 +2,7 @@ import React from "react";
 
 export function ContentCard({ contentItem }) {
     return (
-        <div>
+        <div className="mb-5">
             <img
                 className="m-auto rounded-3xl object-cover h-80 mb-5 w-full"
                 src={contentItem.imgSource}

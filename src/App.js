@@ -14,9 +14,9 @@ function App() {
     <main className='py-8'>
       <Hero />
       
-      {/* <Content />
+      <Content />
 
-      <Instructor />
+      {/* <Instructor />
 
       <Services />
 

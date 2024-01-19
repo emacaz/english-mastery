@@ -13,7 +13,7 @@ export function Content() {
     };
     const contentItem2 = {
         imgSource: e_learning,
-        title: "Niveles A, B, C.",
+        title: "Niveles A, B, C, de acuerdo al MCER (Marco Común Europeo de Referencia)",
         description:
             "El English Mastery contiene los niveles desde el A1 hasta el C2, haciendo de éste el único programa completo de habla hispana para estudiar desde cualquier parte del mundo.",
     };
@@ -25,10 +25,10 @@ export function Content() {
     };
 
     return (
-        <div className="mt-[7rem] py-12 bg-sky-100 px-20">
-            <h1 className="text-center text-4xl font-bold pb-3 mb-[4rem]" >Qué contiene el English Mastery</h1>
+        <div className="bg-blue-50 px-8 mt-[7rem] py-12">
+            <h1 className="text-3xl mb-2 text-center font-bold pb-3" >Qué contiene el English Mastery</h1>
             
-            <div className="grid grid-cols-3 gap-10">
+            <div className="flex flex-wrap justify-center gap-8">
                 <ContentCard contentItem={contentItem1} />
                 <ContentCard contentItem={contentItem2} />
                 <ContentCard contentItem={contentItem3} />
