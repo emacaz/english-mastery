@@ -3,7 +3,7 @@ import Button from "../Button";
 
 function PriceCard({ priceCard }) {
   return (
-    <div className="border-solid border-2 border-gray-500 rounded-3xl p-3 max-w-[400px]">
+    <div className="mt-7 border-solid border-2 border-gray-500 rounded-3xl p-3 max-w-[400px]">
       <img
         className="m-auto rounded-3xl object-cover h-80 mb-5 w-full"
         src={priceCard.imgSource}
@@ -21,7 +21,7 @@ function PriceCard({ priceCard }) {
       <p className="text-4xl font-bold">${priceCard.value}</p>
       <p>{priceCard.periocity}</p>
       <Button button_text={"Seleccionar"}></Button>
-      <p>{priceCard.description}</p>
+      <p className="text-base font-semibold mb-6">{priceCard.description}</p>
       <ul>
         {priceCard.features.map((feature, index) => (
           <li key={index}>&#10003; {feature}</li>

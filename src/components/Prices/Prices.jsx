@@ -11,7 +11,7 @@ const monthPrice = {
   type: "Suscripción de pago cada mes",
   value: 25,
   periocity: "Suscripción mensual",
-  description: "Descripción de membresía.",
+  description: "Accede al programa English Mastery pagando comodamente de forma mensual.",
   features: ["Acceso al programa EM", "Soporte 24/7", "Acceso a Salas de Práctica"],
 };
 
@@ -21,7 +21,7 @@ const yearPrice = {
   type: "Suscripción de pago cada año",
   value: 200,
   periocity: "Suscripción anual",
-  description: "Descripción de membresía.",
+  description: "Obtén 4 meses gratis accediendo al programa English Mastery pagando 1 año.",
   features: ["Todos los beneficios del pago mensual", "4 meses gratis"],
 };
 
@@ -31,14 +31,14 @@ const permanentPrice = {
   type: "Un único pago",
   value: 300,
   periocity: "Acceso permanente",
-  description: "Descripción de membresía.",
+  description: "Adquiere el programa English Mastery por un único pago y no pagues nunca más. Haz tú mism@ los números 😉.",
   features: ["Acceso a las actualizaciones", "Accedes a las Salas de Práctica", "Soporte 24/7"],
 };
 
 export function Prices() {
   return (
-    <div className="mt-[6rem] px-20">
-      <h1 className="text-4xl font-bold text-center mb-10">Precios</h1>
+    <div className="px-8 py-10">
+      <h1 className="text-3xl font-semibold text-center">Precios</h1>
       <div className="flex flex-wrap justify-center gap-8">
         <PriceCard priceCard={monthPrice} />
         <PriceCard priceCard={yearPrice} />

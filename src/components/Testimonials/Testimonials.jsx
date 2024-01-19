@@ -15,7 +15,7 @@ const testimonial2 = {
     name: "José Gudiel",
     userImg: testimonial2_img,
     description:
-        "English Mastery me párese super bien por que es un curso muy bueno y muy completo aparte de eso el teacher explica muy bien yo lo recomiendo esta muy bueno ami en lo personal me ha ayudado mucho.",
+        "English Mastery me parese super bien por que es un curso muy bueno y muy completo aparte de eso el teacher explica muy bien yo lo recomiendo esta muy bueno ami en lo personal me ha ayudado mucho.",
 };
 
 const testimonial3 = {
@@ -27,7 +27,7 @@ const testimonial3 = {
 
 export function Testimonials() {
     return (
-        <div className="bg-blue-50 px-8 pt-10">
+        <div className="bg-blue-50 px-8 py-10">
             <h1 className="text-center text-3xl font-semibold">Qué dicen nuestros Estudiantes</h1>
             <div className="flex flex-wrap justify-center gap-8">
                 <TestimonialCard testimonial={testimonial1} />

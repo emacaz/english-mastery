@@ -28,9 +28,9 @@ function App() {
 
       <Testimonials />
       
-      {/* <Prices />
+      <Prices />
       
-      <Contact /> */}
+      {/* <Contact /> */}
     </main>
   )
 }
