@@ -14,9 +14,9 @@ function App() {
     <main className='"pt-8 md:p-0'>
       <Hero />
       
-      <Content />
+      {/* <Content />
 
-      {/* <Instructor />
+      <Instructor />
 
       <Services />
 
