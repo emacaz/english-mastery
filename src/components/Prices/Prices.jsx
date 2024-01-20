@@ -37,8 +37,8 @@ const permanentPrice = {
 
 export function Prices() {
   return (
-    <div className="px-8 py-10">
-      <h1 className="text-3xl font-semibold text-center">Precios</h1>
+    <div className="px-8 py-10 sm:py-[5rem]" id="price_section_id">
+      <h1 className="text-3xl font-semibold text-center sm:text-5xl sm:mb-7">Precios</h1>
       <div className="flex flex-wrap justify-center gap-8">
         <PriceCard priceCard={monthPrice} />
         <PriceCard priceCard={yearPrice} />

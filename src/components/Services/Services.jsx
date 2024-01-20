@@ -25,7 +25,7 @@ export function Services() {
     };
     return (
         <div className="py-12 bg-blue-50 px-8">
-            <h1 className="text-center text-2xl font-semibold pb-3 mb-3">
+            <h1 className="text-center text-2xl font-semibold pb-3 mb-3 sm:text-5xl">
                 Servicios
             </h1>
 

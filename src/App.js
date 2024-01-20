@@ -8,6 +8,7 @@ import { FAQ } from './components/FAQ/FAQ'
 import { Testimonials } from './components/Testimonials/Testimonials'
 import { Prices } from './components/Prices/Prices'
 import { Contact } from './components/Contact'
+import { WhatsAppButton } from './components/WhatsappButton';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       
       <Content />
 
-      {/* <Instructor />
+      <Instructor />
 
       <Services />
 
@@ -30,7 +31,9 @@ function App() {
       
       <Prices />
       
-      <Contact /> */}
+      <Contact />
+
+      <WhatsAppButton />
     </main>
   )
 }

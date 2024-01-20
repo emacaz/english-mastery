@@ -25,10 +25,10 @@ export function Content() {
     };
 
     return (
-        <div className="bg-blue-50 px-8 mt-[7rem] py-12 sm:m-0">
-            <h1 className="text-2xl mb-2 text-center font-bold pb-3 sm:mb-[4rem]" >Qué contiene el English Mastery</h1>
+        <div className="bg-blue-50 px-8 mt-[7rem] py-12 sm:m-0 sm:py-[4rem]" id="program_content_id">
+            <h1 className="text-2xl mb-2 text-center font-bold pb-3 sm:mb-[4rem] sm:text-5xl" >Qué contiene el English Mastery</h1>
             
-            <div className="flex flex-wrap justify-center gap-8">
+            <div className="flex flex-wrap justify-center gap-8 sm:gap-14">
                 <ContentCard contentItem={contentItem1} />
                 <ContentCard contentItem={contentItem2} />
                 <ContentCard contentItem={contentItem3} />

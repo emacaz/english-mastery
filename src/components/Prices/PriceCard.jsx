@@ -17,14 +17,14 @@ function PriceCard({ priceCard }) {
       >
         {priceCard.popular ? "Popular" : ""}
       </span>
-      <h3 className="mt-2">{priceCard.type}</h3>
+      <h3 className="mt-2 sm:text-lg">{priceCard.type}</h3>
       <p className="text-4xl font-bold">${priceCard.value}</p>
       <p>{priceCard.periocity}</p>
       <Button button_text={"Seleccionar"}></Button>
-      <p className="text-base font-semibold mb-6">{priceCard.description}</p>
+      <p className="text-base font-semibold mb-6 sm:text-lg">{priceCard.description}</p>
       <ul>
         {priceCard.features.map((feature, index) => (
-          <li key={index}>&#10003; {feature}</li>
+          <li key={index} className="sm:text-lg">&#10003; {feature}</li>
         ))}
       </ul>
     </div>

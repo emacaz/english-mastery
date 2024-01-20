@@ -9,13 +9,13 @@ export function Hero() {
                 <h1 className="text-3xl leading-normal mb-2 sm:text-6xl font-semibold">
                     Habla Inglés, Conecta <br/> con el mundo! 🌍
                 </h1>
-                <p className="mb-10 text-base sm:my-8">
+                <p className="mb-10 text-base sm:my-8 sm:text-xl">
                     El único programa con charlas en vivo para conectar y hablar <br/>
                     en Inglés con personas reales de todo el mundo.
                 </p>
-                <button className="py-3 w-full bg-[#545e67] text-white p-2 rounded-lg text-xl hover:bg-slate-800 sm:w-[300px]">
+                <a href="#program_content_id" className="block text-center py-3 w-full bg-[#545e67] text-white p-2 rounded-lg text-xl hover:bg-slate-800 sm:w-[300px]">
                     Conocer el programa
-                </button>
+                </a>
             </div>
         </div>
     );
