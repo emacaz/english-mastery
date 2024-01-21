@@ -20,7 +20,7 @@ export function Instructor() {
                 </p>
             </div>
             <div className="px-[3rem] sm:p-0">
-                <img className="mx-5 w-full max-w-[400px] m-auto lg:w-full" src={instructor_img} alt="instructor" />
+                <img className="w-full max-w-[400px] m-auto lg:w-full" src={instructor_img} alt="instructor" />
             </div>
         </div>
     );

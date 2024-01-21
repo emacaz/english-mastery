@@ -4,8 +4,8 @@ export default {
     theme: {
         extend: {
             backgroundImage: {
-                'hero-background': "url(/src/images/hero-img.jpeg)",
-                'contact-us': "url(/src/images/contact-us-img.jpeg)"
+                'hero-background': "url(/src/images/hero-img.png)",
+                'contact-us': "url(/src/images/contact-us-img.png)"
             }
         },
     },

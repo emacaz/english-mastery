@@ -13,7 +13,7 @@ export function Hero() {
                     El único programa con charlas en vivo para conectar y hablar <br/>
                     en Inglés con personas reales de todo el mundo.
                 </p>
-                <a href="#program_content_id" className="block text-center py-3 w-full bg-[#545e67] text-white p-2 rounded-lg text-xl hover:bg-slate-800 sm:w-[300px]">
+                <a href="#program_content_id" className="block text-center mt-[6rem] py-3 w-full bg-[#545e67] text-white p-2 rounded-lg text-xl hover:bg-slate-800 sm:w-[300px] sm:mt-[3rem]">
                     Conocer el programa
                 </a>
             </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import { TestimonialCard } from "./TestimonialCard";
-import testimonial1_img from "../../images/testimonial1-img.jpeg"
-import testimonial2_img from "../../images/testimonial2-img.jpeg"
-import testimonial3_img from "../../images/testimonial3-img.jpeg"
+import testimonial1_img from "../../images/testimonial1-img.png"
+import testimonial2_img from "../../images/testimonial2-img.png"
+import testimonial3_img from "../../images/testimonial3-img.png"
 
 const testimonial1 = {
     name: "Brayan",
