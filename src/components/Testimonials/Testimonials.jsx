@@ -12,7 +12,7 @@ const testimonial1 = {
 };
 
 const testimonial2 = {
-    name: "José Gudiel",
+    name: "Josué Gudiel",
     userImg: testimonial2_img,
     description:
         "English Mastery me parese super bien por que es un curso muy bueno y muy completo aparte de eso el teacher explica muy bien yo lo recomiendo esta muy bueno ami en lo personal me ha ayudado mucho.",
