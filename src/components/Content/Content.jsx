@@ -1,8 +1,8 @@
 import React from "react";
 import { ContentCard } from "./ContentCard";
-import live_lessons from '../../images/practice-room-img.jpeg'
-import e_learning from '../../images/e-learning-img.jpeg'
-import tests_img from '../../images/tests-img.jpeg'
+import live_lessons from '../../images/practice-room-img.png'
+import e_learning from '../../images/e-learning-img.png'
+import tests_img from '../../images/tests-img.png'
 
 const contentItem1 = {
     imgSource: live_lessons,

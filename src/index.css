@@ -36,7 +36,7 @@ code {
 
 @media (max-width: 640px) {
   .Hero::before {
-    background-image: url('/src/images/hero-phone-img.jpeg');
-    height: 80%;
+    background-image: url('/src/images/hero-phone-img.png');
+    height: 70%;
   }
 }
