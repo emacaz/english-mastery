@@ -1,5 +1,6 @@
-import React from "react";
-import Button from "../Button";
+import React, { useEffect } from "react";
+import HotmartButton from "../Hotmart/HotmartButton";
+
 
 function PriceCard({ priceCard }) {
   return (
@@ -18,13 +19,19 @@ function PriceCard({ priceCard }) {
         {priceCard.popular ? "Popular" : ""}
       </span>
       <h3 className="mt-2 sm:text-lg">{priceCard.type}</h3>
-      <p className="text-4xl font-bold">${priceCard.value}</p>
+      <p className="text-4xl font-bold text-green-500">${priceCard.value}</p>
       <p>{priceCard.periocity}</p>
-      <Button button_text={"Seleccionar"}></Button>
-      <p className="text-base font-semibold mb-6 sm:text-lg">{priceCard.description}</p>
+
+      <HotmartButton link={priceCard.aHref} />
+
+      <p className="text-base font-semibold mb-6 sm:text-lg">
+        {priceCard.description}
+      </p>
       <ul>
         {priceCard.features.map((feature, index) => (
-          <li key={index} className="sm:text-lg">&#10003; {feature}</li>
+          <li key={index} className="sm:text-lg">
+            &#10003; {feature}
+          </li>
         ))}
       </ul>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 import { ContentCard } from "../Content/ContentCard";
 import live_lessons_img from "../../images/live-lessons-img.jpeg";
 import study_any_place_img from "../../images/study-any-place-img.jpeg";
-import support_img from "../../images/support-img.jpeg";
+import support_img from '../../images/support-img.jpeg';
 
 export function Services() {
     const serviceItem1 = {

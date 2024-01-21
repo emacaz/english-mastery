@@ -23,6 +23,7 @@ export function FAQ() {
             <FAQCard question={question1} />
             <FAQCard question={question2} />
             <FAQCard question={question3} />
+            <h2 className="text-sm text-center sm:text-xl">¿Tienes más preguntas? <a href="#contact-us_section_id" className="text-sky-600 underline">Escríbenos para ayudarte</a></h2>
         </div>
     );
 }
