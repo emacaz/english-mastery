@@ -15,7 +15,7 @@ export function PracticeRoom() {
             </div>
             <div className="sm:relative sm:h-full m-auto">
                 <img
-                    className="sm:h-full object-cover sm:w-auto rounded-2xl mb-10 sm:m-auto"
+                    className="object-cover sm:w-auto rounded-2xl mb-10 sm:m-auto"
                     src={practice_room_img}
                     alt="practice-room"
                 />
