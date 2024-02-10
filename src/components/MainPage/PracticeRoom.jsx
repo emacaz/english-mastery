@@ -1,7 +1,7 @@
 import React from "react";
 import practice_room_img from '../images/practice-room-img.png'
 
-export function PracticeRoom() {
+export default function PracticeRoom() {
     return (
         <div className="flex flex-wrap justify-center gap-6 bg-blue-50 p-8 sm:py-[8rem] lg:m-auto md:grid md:grid-cols-4" style={{gridTemplateColumns: "10% 40% 40% 10%" }}>
             <div className="md:col-start-2 md:col-span-1 flex flex-col h-full justify-center">

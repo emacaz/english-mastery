@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 
-export function Start() {
+export default function Start() {
   const getStarted = () => {
     const targetSection = document.getElementById("contact-us_section_id");
     if(targetSection) {

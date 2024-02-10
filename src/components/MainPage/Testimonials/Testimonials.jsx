@@ -25,7 +25,7 @@ const testimonial3 = {
         "Es cool la forma en que implementas la metodología, es bueno ver vocabulario y de paso oraciones donde lo usamos.",
 };
 
-export function Testimonials() {
+export default function Testimonials() {
     return (
         <div className="bg-blue-50 px-8 py-10 sm:py-[6rem]">
             <h1 className="text-center text-3xl font-semibold mb-5 sm:text-5xl sm:mb-9">Qué dicen nuestros Estudiantes</h1>

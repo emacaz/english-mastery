@@ -1,0 +1,12 @@
+export { default as FAQ } from './FAQ/FAQ';
+export { default as HotmartButton } from './Hotmart/HotmartButton';
+export { default as Prices } from './Prices/Prices';
+export { default as Services } from './Services/Services';
+export { default as Testimonials } from './Testimonials/Testimonials';
+export { default as Button } from './Button';
+export { default as Contact } from './Contact';
+export { default as Hero } from './Hero';
+export { default as Instructor } from './Instructor';
+export { default as PracticeRoom } from './PracticeRoom';
+export { default as Start } from './Start';
+export { default as WhatsappButton } from './WhatsappButton';

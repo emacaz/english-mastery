@@ -1,7 +1,7 @@
 import React from "react";
 import instructor_img from '../images/instructor2-img.png'
 
-export function Instructor() {
+export default function Instructor() {
     return (
         <div className="px-8 pt-[2rem] pb-[6rem] flex flex-wrap justify-center sm:grid sm:grid-cols-2 sm:place-items-center sm:max-w-[1800px] sm:m-auto sm:px-[4rem] lg:h-[700px]">
             <div className="sm:max-w-[650px]">

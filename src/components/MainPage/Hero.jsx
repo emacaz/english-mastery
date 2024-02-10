@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Hero() {
+export default function Hero() {
     return (
         <div className="Hero h-5/6 sm:relative sm:h-[800px] sm:py-[6rem] sm:grid sm:grid-cols-4 sm:max-w-[1800px] sm:m-auto" style={{gridTemplateColumns: "10% 35% 35% 15%" }}>
             {/* <div className="absolute inset-0 bg-cover bg-center opacity-20 bg-gradient-to-r from-cyan-100 to-sky-500 md:h-full"></div> */}
