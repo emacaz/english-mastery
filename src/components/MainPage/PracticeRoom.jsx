@@ -1,5 +1,5 @@
 import React from "react";
-import practice_room_img from '../images/practice-room-img.png'
+import practice_room_img from '../../images/practice-room-img.png'
 
 export default function PracticeRoom() {
     return (

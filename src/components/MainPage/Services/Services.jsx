@@ -1,8 +1,8 @@
 import React from "react";
 import { ContentCard } from "../Content/ContentCard";
-import live_lessons_img from "../../images/live-lessons-img.png";
-import study_any_place_img from "../../images/study-any-place-img.png";
-import support_img from '../../images/support-img.png';
+import live_lessons_img from "../../../images/live-lessons-img.png";
+import study_any_place_img from "../../../images/study-any-place-img.png";
+import support_img from '../../../images/support-img.png';
 
 export default function Services() {
     const serviceItem1 = {

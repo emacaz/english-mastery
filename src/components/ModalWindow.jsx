@@ -6,7 +6,7 @@ const ModalWindow = ({ closeModal }) => {
 
   const handleTakeTest = () => {
     closeModal();
-    navigate('/english-test'); // Use the route that you've defined for the Test page
+    navigate('/test'); // Use the route that you've defined for the Test page
   };
 
   return (
@@ -14,7 +14,7 @@ const ModalWindow = ({ closeModal }) => {
       <div className="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
         <div className="mt-3 text-center">
           <h3 className="text-lg leading-6 font-medium text-gray-900">
-            Has llegado para volverte Bilingüe...
+            Hablar Inglés me ha hecho ganar más dinero. Ya hablas Inglés?
           </h3>
           <div className="mt-2 px-7 py-3">
             <p className="text-sm text-gray-500">

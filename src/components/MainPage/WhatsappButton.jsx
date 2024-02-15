@@ -1,5 +1,5 @@
 import React from "react";
-import WhatsAppIcon from "../images/whatsapp-logo.png"; // Adjust the path based on your file structure
+import WhatsAppIcon from "../../images/whatsapp-logo.png"; // Adjust the path based on your file structure
 
 export default function WhatsAppButton() {
   return (

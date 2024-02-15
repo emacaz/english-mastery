@@ -1,8 +1,8 @@
 import PriceCard from "./PriceCard";
 
-import month_sus_img from "../../images/month-sus-img.png";
-import year_sus_img from "../../images/year-sus-img.png";
-import perma_sus_img from "../../images/perma-sus-img.png";
+import month_sus_img from "../../../images/month-sus-img.png";
+import year_sus_img from "../../../images/year-sus-img.png";
+import perma_sus_img from "../../../images/perma-sus-img.png";
 
 const monthPrice = {
   imgSource: month_sus_img,

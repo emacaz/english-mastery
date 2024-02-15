@@ -1,8 +1,8 @@
 import React from "react";
 import { ContentCard } from "./ContentCard";
-import live_lessons from '../../images/practice-room-img.png'
-import e_learning from '../../images/e-learning-img.png'
-import tests_img from '../../images/tests-img.png'
+import live_lessons from '../../../images/practice-room-img.png'
+import e_learning from '../../../images/e-learning-img.png'
+import tests_img from '../../../images/tests-img.png'
 
 const contentItem1 = {
     imgSource: live_lessons,
@@ -23,7 +23,7 @@ const contentItem3 = {
         "Todos los niveles tienen tests con el fin de poner a prueba lo que vas aprendiendo y así puedas recordarlo fácilmente.",
 };
 
-export function Content() {
+export default function Content() {
 
     return (
         <div className="bg-blue-50 px-8 mt-[7rem] py-12 sm:m-0 sm:py-[4rem]" id="program_content_id">

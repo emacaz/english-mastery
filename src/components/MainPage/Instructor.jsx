@@ -1,5 +1,5 @@
 import React from "react";
-import instructor_img from '../images/instructor2-img.png'
+import instructor_img from '../../images/instructor2-img.png'
 
 export default function Instructor() {
     return (
