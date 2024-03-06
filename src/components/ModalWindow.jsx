@@ -6,7 +6,7 @@ const ModalWindow = ({ closeModal }) => {
 
   const handleTakeTest = () => {
     closeModal();
-    navigate('/test'); // Use the route that you've defined for the Test page
+    navigate('/test');
   };
 
   return (
@@ -26,7 +26,7 @@ const ModalWindow = ({ closeModal }) => {
               className="px-4 py-2 bg-blue-500 text-white text-base font-medium rounded-md shadow-sm hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-300"
               onClick={closeModal}
             >
-              Conocer el programa
+              Empieza gratis
             </button>
             <button
               className="px-4 py-2 bg-green-500 text-white text-base font-medium rounded-md shadow-sm hover:bg-green-400 focus:outline-none focus:ring-2 focus:ring-green-300"

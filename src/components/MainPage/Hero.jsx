@@ -21,7 +21,7 @@ const Hero = () => {
             href="#program_content_id"
             className="block text-center mt-[6rem] py-3 w-full bg-[#545e67] text-white p-2 rounded-lg text-xl hover:bg-slate-800 sm:w-[300px] sm:mt-[3rem]"
           >
-            Conocer el programa
+            Comienza gratis
           </a>
           <a
             href="/test"
