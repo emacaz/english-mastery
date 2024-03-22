@@ -113,7 +113,7 @@ export default Test;
  * Guardar la respuesta y hacer su respectiva lógica,
  * y a la siguiente... hasta terminar ó hasta que el timer se acabe
  *
- * (En medio...): si el timer acaba o si han terminado las preguntas...***:
+ * (Función para): si el timer acaba o si han terminado las preguntas...***:
  * MOSTRAR:
  * Has terminado el test + puntuación
  * Porcentaje de respuestas correctas por nivel:
