@@ -4,11 +4,12 @@ import questions from "./Questions";
 import Question from "./Question";
 
 const Test = () => {
+  const minutes = 1 * 10;
   const navigate = useNavigate();
   const [isTestStarted, setIsTestStarted] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState([]);
-  const [timeLeft, setTimeLeft] = useState(20 * 60);
+  const [timeLeft, setTimeLeft] = useState(minutes);
 
   useEffect(() => {
     document.title = "English Test";
@@ -21,6 +22,7 @@ const Test = () => {
       timerId = setTimeout(() => setTimeLeft(timeLeft - 1), 1000);
     } else if (timeLeft === 0) {
       // Time is up, handle end of test here
+      console.log("Time is up puto");
     }
 
     return () => clearTimeout(timerId);
@@ -32,12 +34,26 @@ const Test = () => {
 
   const startTest = () => {
     setIsTestStarted(true);
-    setTimeLeft(20 * 60); // Reset timer to 20 min
+    setTimeLeft(minutes); // Reset timer to 20 min
   };
 
   const handleAnswer = (selectedAnswer) => {
-    // Update userAnswers and navigate to the next question
-    // Additional logic for handling answer selection
+    const newAnswer = {
+      question: questions[currentQuestionIndex].question,
+      selectedAnswer: selectedAnswer.text,
+      isCorrect: selectedAnswer.correct,
+    };
+
+    setUserAnswers((prevAnswers) => [...prevAnswers, newAnswer]);
+
+    const nextQuestionIndex = currentQuestionIndex + 1;
+    if (nextQuestionIndex < questions.length) {
+      setCurrentQuestionIndex(nextQuestionIndex);
+    } else {
+      // Handle end of test (e.g., show results)
+      setIsTestStarted(false);
+      // I might want to navigate to a results page or handle results display here
+    }
   };
 
   const formatTime = (seconds) => {
