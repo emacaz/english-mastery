@@ -10,6 +10,7 @@ const Test = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState([]);
   const [timeLeft, setTimeLeft] = useState(minutes);
+  const [showResults, setShowResults] = useState(false);
 
   useEffect(() => {
     document.title = "English Test";
@@ -23,6 +24,7 @@ const Test = () => {
     } else if (timeLeft === 0) {
       // Time is up, handle end of test here
       console.log("Time is up puto");
+      setShowResults(true);
     }
 
     return () => clearTimeout(timerId);
@@ -51,8 +53,10 @@ const Test = () => {
       setCurrentQuestionIndex(nextQuestionIndex);
     } else {
       // Handle end of test (e.g., show results)
-      setIsTestStarted(false);
+      console.log("All questions answered...");
+      // setIsTestStarted(false);
       // I might want to navigate to a results page or handle results display here
+      setShowResults(true);
     }
   };
 
@@ -60,6 +64,10 @@ const Test = () => {
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = seconds % 60;
     return `${minutes}:${remainingSeconds < 10 ? "0" : ""}${remainingSeconds}`;
+  };
+
+  const showResult = () => {
+    setShowResults(true);
   };
 
   return (
@@ -89,6 +97,29 @@ const Test = () => {
             </button>
           </div>
         </div>
+      ) : showResults ? (
+        <div>
+          <h2>Has terminado el test</h2>
+          {userAnswers.map((answer, index) => (
+            <p key={index}>
+              {answer.question}: {answer.isCorrect ? "✅" : "❌"}
+            </p>
+          ))}
+          <button
+            onClick={() => {
+              /* logic to navigate to courses */
+            }}
+          >
+            Ver cursos
+          </button>
+          <button
+            onClick={() => {
+              /* logic to restart the test */
+            }}
+          >
+            Empezar desde cero
+          </button>
+        </div>
       ) : (
         <div>
           <div>Time left: {formatTime(timeLeft)}</div>
@@ -115,11 +146,9 @@ export default Test;
  *
  * (Función para): si el timer acaba o si han terminado las preguntas...***:
  * MOSTRAR:
- * Has terminado el test + puntuación
- * Porcentaje de respuestas correctas por nivel:
- * MOSTRAR respuestas por nivel***
- * Nivel de Inglés: A,B,C...
- * Botones: Ir a la página de Inicio - Tomar test nuevamente...
- *
- * Botón: Tomar test nuevamente -> Dirige a *press "Empezar Test"***:
+ 1. Has terminado el test + puntuación
+ 2. Porcentaje de respuestas correctas por nivel:
+ 3. MOSTRAR respuestas por nivel***
+ 4. Nivel de Inglés: A,B,C...
+ 5. Botones: Ver-cursos['...'] - Empieza desde cero['...']...
  */
