@@ -136,19 +136,13 @@ const Test = () => {
 export default Test;
 
 /**
- * press "Empezar Test"***:
- * Desaparece todo lo anterior y aparece:
- * [Timer, Nivel, Pregunta, Opciones de respuestas] - Componente para (nivel, pregunta, opciones de respuestas)
- *
- * Al presionar una opción de respuesta...***:
- * Guardar la respuesta y hacer su respectiva lógica,
- * y a la siguiente... hasta terminar ó hasta que el timer se acabe
- *
  * (Función para): si el timer acaba o si han terminado las preguntas...***:
  * MOSTRAR:
  1. Has terminado el test + puntuación
  2. Porcentaje de respuestas correctas por nivel:
  3. MOSTRAR respuestas por nivel***
  4. Nivel de Inglés: A,B,C...
- 5. Botones: Ver-cursos['...'] - Empieza desde cero['...']...
+ 5. Botones:
+ * [Empieza desde cero]: Enviarlo a "Que contiene el English Mastery"
+ * [Ver cursos]: Mostrar los niveles individuales.
  */

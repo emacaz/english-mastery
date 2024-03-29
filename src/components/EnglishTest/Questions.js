@@ -18,15 +18,15 @@ const questions = [
             { text: '/ba/', correct: false }
         ]
     },
-    // {
-    //     level: 'A1',
-    //     question: '¿Cuál de las siguientes palabras describe la apariencia física?',
-    //     answers: [
-    //         { text: 'Happy', correct: false },
-    //         { text: 'Tall', correct: true },
-    //         { text: 'Delicious', correct: false }
-    //     ]
-    // },
+    {
+        level: 'A1',
+        question: '¿Cuál de las siguientes palabras describe la apariencia física?',
+        answers: [
+            { text: 'Happy', correct: false },
+            { text: 'Tall', correct: true },
+            { text: 'Delicious', correct: false }
+        ]
+    },
     // {
     //     level: 'A1',
     //     question: '¿Cuál de las siguientes opciones es un pronombre posesivo en inglés?',
