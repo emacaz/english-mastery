@@ -136,13 +136,8 @@ const Test = () => {
 export default Test;
 
 /**
- * (Función para): si el timer acaba o si han terminado las preguntas...***:
- * MOSTRAR:
- 1. Has terminado el test + puntuación
- 2. Porcentaje de respuestas correctas por nivel:
- 3. MOSTRAR respuestas por nivel***
- 4. Nivel de Inglés: A,B,C...
- 5. Botones:
+ * Timer up or finished:
+ * Results + CTA
  * [Empieza desde cero]: Enviarlo a "Que contiene el English Mastery"
  * [Ver cursos]: Mostrar los niveles individuales.
  */
