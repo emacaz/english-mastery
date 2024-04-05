@@ -4,7 +4,7 @@ import questions from "./Questions";
 import Question from "./Question";
 
 const Test = () => {
-  const minutes = 1 * 10;
+  const minutes = 100 * 60;
   const navigate = useNavigate();
   const [isTestStarted, setIsTestStarted] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -79,10 +79,11 @@ const Test = () => {
           </h1>
           <p className="mb-10 text-base my-8 sm:text-xl">
             Una vez empieces el test no debes recargar o actualizar la página,
-            tienes 20 minutos para completarlo (aparecerá un temporizador) y
-            necesitas aprobar el 90% de respuestas por nivel para aprobar dicho
-            nivel. Cuando lo empieces no puedes volver atrás hasta terminarlo y
-            una vez el tiempo se termine, se cierra el test. Good luck!
+            tienes <strong>20 minutos</strong> para completarlo (aparecerá un
+            temporizador) y necesitas aprobar el 90% de respuestas por nivel
+            para aprobar dicho nivel. Cuando lo empieces{" "}
+            <u>no puedes volver atrás hasta terminarlo</u> y una vez el tiempo
+            se termine, se cierra el test. Good luck!
           </p>
           <div className="flex flex-col gap-4 py-3 sm:flex-row">
             <button
@@ -100,31 +101,39 @@ const Test = () => {
           </div>
         </div>
       ) : showResults ? (
-        <div>
-          <h2>Has terminado el test</h2>
+        <div className="max-w-3xl m-auto p-8">
+          <h2 className="text-xl sm:text-2xl">Has terminado el test</h2>
           {userAnswers.map((answer, index) => (
-            <p key={index}>
+            <p className="mb-10 text-base sm:my-4 sm:text-lg" key={index}>
               {answer.question}: {answer.isCorrect ? "✅" : "❌"}
             </p>
           ))}
-          <button
-            onClick={() => {
-              /* logic to navigate to courses */
-            }}
-          >
-            Ver cursos
-          </button>
-          <button
-            onClick={() => {
-              /* logic to restart the test */
-            }}
-          >
-            Empezar desde cero
-          </button>
+          <div className="flex flex-col gap-4 py-3 sm:flex-row">
+            <button
+              className="px-4 py-2 bg-blue-500 text-white text-base font-medium rounded-md shadow-sm hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-300 w-full"
+              onClick={() => {
+                /* logic to navigate to courses */
+              }}
+            >
+              Ver cursos
+            </button>
+            <button
+              className="px-4 py-2 bg-green-500 text-white text-base font-medium rounded-md shadow-sm hover:bg-green-400 focus:outline-none focus:ring-2 focus:ring-green-300 w-full"
+              onClick={() => {
+                /* logic to restart the test */
+              }}
+            >
+              Empezar desde cero
+            </button>
+          </div>
         </div>
       ) : (
         <div>
-          <div>Time left: {formatTime(timeLeft)}</div>
+          <div className="p-4">
+            <span className="text-rose-500 font-semibold text-xl">
+              Tiempo restante: {formatTime(timeLeft)}
+            </span>
+          </div>
           <Question
             questionData={questions[currentQuestionIndex]}
             onAnswerSelect={handleAnswer}

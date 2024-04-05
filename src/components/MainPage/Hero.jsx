@@ -19,13 +19,13 @@ const Hero = () => {
         <div className="flex flex-col gap-4 py-3 sm:flex-row">
           <a
             href="#program_content_id"
-            className="block text-center mt-[3rem] py-3 w-full bg-[#545e67] text-white p-2 rounded-lg text-xl hover:bg-slate-800 sm:w-[300px] sm:mt-[3rem]"
+            className="block text-center mt-[1rem] py-3 w-full bg-[#545e67] text-white p-2 rounded-lg text-xl hover:bg-slate-800 sm:w-[300px] sm:mt-[3rem]"
           >
             Comienza gratis
           </a>
           <a
             href="/test"
-            className="block text-center mt-[3rem] py-3 w-full bg-green-500 text-white p-2 rounded-lg text-xl hover:bg-slate-800 sm:w-[300px] sm:mt-[3rem]"
+            className="block text-center mt-[1rem] py-3 w-full bg-green-500 text-white p-2 rounded-lg text-xl hover:bg-slate-800 sm:w-[300px] sm:mt-[3rem]"
           >
             Tomar Test
           </a>
