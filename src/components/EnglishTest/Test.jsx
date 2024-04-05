@@ -138,6 +138,7 @@ const Test = () => {
 export default Test;
 
 /**
+ * Ver elementos que se repiten para convertirlos en componentes
  * Timer up or finished:
  * Results + CTA
  * [Empieza desde cero]: Enviarlo a "Que contiene el English Mastery"
