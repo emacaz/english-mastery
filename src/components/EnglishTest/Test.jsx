@@ -23,7 +23,7 @@ const Test = () => {
       timerId = setTimeout(() => setTimeLeft(timeLeft - 1), 1000);
     } else if (timeLeft === 0) {
       // Time is up, handle end of test here
-      console.log("Time is up puto");
+      console.log("Time is up.");
       setShowResults(true);
     }
 
