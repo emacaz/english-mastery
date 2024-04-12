@@ -18,15 +18,15 @@ const questions = [
             { text: '/ba/', correct: false }
         ]
     },
-    {
-        level: 'A1',
-        question: '¿Cuál de las siguientes palabras describe la apariencia física?',
-        answers: [
-            { text: 'Happy', correct: false },
-            { text: 'Tall', correct: true },
-            { text: 'Delicious', correct: false }
-        ]
-    },
+    // {
+    //     level: 'A1',
+    //     question: '¿Cuál de las siguientes palabras describe la apariencia física?',
+    //     answers: [
+    //         { text: 'Happy', correct: false },
+    //         { text: 'Tall', correct: true },
+    //         { text: 'Delicious', correct: false }
+    //     ]
+    // },
     // {
     //     level: 'A1',
     //     question: '¿Cuál de las siguientes opciones es un pronombre posesivo en inglés?',
@@ -136,25 +136,25 @@ const questions = [
     //     ]
     // },
 
-    // // NIVEL 2
-    // {
-    //     level: 'A2',
-    //     question: '¿Cuál es la conjugación correcta del verbo "to eat" en pasado simple?',
-    //     answers: [
-    //         { text: 'Eat', correct: false },
-    //         { text: 'Ate', correct: true },
-    //         { text: 'Eaten', correct: false }
-    //     ]
-    // },
-    // {
-    //     level: 'A2',
-    //     question: '¿Cuál es el antónimo de la palabra "big"?',
-    //     answers: [
-    //         { text: 'Small', correct: true },
-    //         { text: 'Huge', correct: false },
-    //         { text: 'Tiny', correct: false }
-    //     ]
-    // },
+    // NIVEL 2
+    {
+        level: 'A2',
+        question: '¿Cuál es la conjugación correcta del verbo "to eat" en pasado simple?',
+        answers: [
+            { text: 'Eat', correct: false },
+            { text: 'Ate', correct: true },
+            { text: 'Eaten', correct: false }
+        ]
+    },
+    {
+        level: 'A2',
+        question: '¿Cuál es el antónimo de la palabra "big"?',
+        answers: [
+            { text: 'Small', correct: true },
+            { text: 'Huge', correct: false },
+            { text: 'Tiny', correct: false }
+        ]
+    },
     // {
     //     level: 'A2',
     //     question: 'Completa la oración: "She _______ to the beach every summer."',
