@@ -1,7 +1,7 @@
 import React from "react";
-import WhatsAppIcon from "../images/whatsapp-logo.png"; // Adjust the path based on your file structure
+import WhatsAppIcon from "../../images/whatsapp-logo.png"; // Adjust the path based on your file structure
 
-export function WhatsAppButton() {
+export default function WhatsAppButton() {
   return (
     <a
     href="https://api.whatsapp.com/send?phone=573224504439&text=Hello!%20%F0%9F%91%8B%20Quiero%20tomar%20el%20programa%20English%20Mastery."

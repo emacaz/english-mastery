@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Contact() {
+export default function Contact() {
     return (
         <div className="flex justify-center relative h-64 text-center p-8 sm:h-[400px]" id="contact-us_section_id">
             <div className="absolute inset-0 bg-contact-us bg-cover bg-center opacity-20"></div>

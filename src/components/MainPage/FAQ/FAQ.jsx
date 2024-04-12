@@ -16,7 +16,7 @@ const question3 = {
     answer: 'Actualmente nos enfocamos en la enseñanza del inglés para hablantes de español. Nuestro programa está diseñado para personas de todas las edades que deseen mejorar sus habilidades en inglés. Adaptamos el enfoque para satisfacer las necesidades específicas de cada grupo de edad, proporcionando un ambiente de aprendizaje efectivo y personalizado.'
 }
 
-export function FAQ() {
+export default function FAQ() {
     return (
         <div className="my-11 px-8 sm:py-[3rem]">
             <h1 className="text-center text-3xl font-semibold sm:text-5xl">Preguntas frecuentes</h1>

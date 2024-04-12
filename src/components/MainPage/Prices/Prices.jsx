@@ -1,8 +1,8 @@
 import PriceCard from "./PriceCard";
 
-import month_sus_img from "../../images/month-sus-img.png";
-import year_sus_img from "../../images/year-sus-img.png";
-import perma_sus_img from "../../images/perma-sus-img.png";
+import month_sus_img from "../../../images/month-sus-img.png";
+import year_sus_img from "../../../images/year-sus-img.png";
+import perma_sus_img from "../../../images/perma-sus-img.png";
 
 const monthPrice = {
   imgSource: month_sus_img,
@@ -37,7 +37,7 @@ const permanentPrice = {
   aHref: "https://pay.hotmart.com/K84696597G?checkoutMode=2",
 };
 
-export function Prices() {
+export default function Prices() {
 
   return (
     <div className="px-8 py-10 sm:py-[5rem]" id="price_section_id">
