@@ -4,7 +4,7 @@ import questions from "./Questions";
 import Question from "./Question";
 
 const Test = () => {
-  const minutes = 100 * 60;
+  const minutes = 20 * 60;
   const navigate = useNavigate();
   const [isTestStarted, setIsTestStarted] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -13,7 +13,7 @@ const Test = () => {
   const [showResults, setShowResults] = useState(false);
 
   useEffect(() => {
-    document.title = "English Test";
+    document.title = "English Test 📄";
   }, []);
 
   useEffect(() => {
@@ -30,7 +30,13 @@ const Test = () => {
     return () => clearTimeout(timerId);
   }, [timeLeft, isTestStarted]);
 
-  const goBack = () => {
+  const goHome = () => {
+    document.title = "English Mastery";
+    navigate("/");
+  };
+
+  const seeProgram = () => {
+    document.title = "English Mastery";
     navigate("/");
   };
 
@@ -70,6 +76,21 @@ const Test = () => {
     setShowResults(true);
   };
 
+  const categorizeResults = () => {
+    const resultsByLevel = userAnswers.reduce((acc, answer) => {
+      const { level } = questions.find((q) => q.question === answer.question);
+      if (!acc[level]) {
+        acc[level] = { correct: 0, incorrect: 0 };
+      }
+      answer.isCorrect ? acc[level].correct++ : acc[level].incorrect++;
+      return acc;
+    }, {});
+
+    return resultsByLevel;
+  };
+
+  const resultsByLevel = categorizeResults();
+
   return (
     <section>
       {!isTestStarted ? (
@@ -88,7 +109,7 @@ const Test = () => {
           <div className="flex flex-col gap-4 py-3 sm:flex-row">
             <button
               className="px-4 py-2 bg-blue-500 text-white text-base font-medium rounded-md shadow-sm hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-300 w-full"
-              onClick={goBack}
+              onClick={goHome}
             >
               Volver al Inicio
             </button>
@@ -102,28 +123,33 @@ const Test = () => {
         </div>
       ) : showResults ? (
         <div className="max-w-3xl m-auto p-8">
-          <h2 className="text-xl sm:text-2xl">Has terminado el test</h2>
-          {userAnswers.map((answer, index) => (
-            <p className="mb-10 text-base sm:my-4 sm:text-lg" key={index}>
-              {answer.question}: {answer.isCorrect ? "✅" : "❌"}
-            </p>
-          ))}
+          <h2 className="text-xl sm:text-2xl font-semibold">
+            Has terminado el test
+          </h2>
+          {Object.entries(resultsByLevel).map(
+            ([level, { correct, incorrect }], index) => (
+              <div
+              key={index}
+              className="border-x-zinc-300 border-2 rounded-md p-4 m-5"
+              >
+                <h3 className="text-lg sm:text-xl font-semibold">Nivel {level}</h3>
+                <p>Respuestas Correctas: <span className="font-semibold">{correct} ✅</span></p>
+                <p>Respuestas Incorrectas: <span className="font-semibold">{incorrect} ❌</span></p>
+              </div>
+            )
+          )}
           <div className="flex flex-col gap-4 py-3 sm:flex-row">
             <button
               className="px-4 py-2 bg-blue-500 text-white text-base font-medium rounded-md shadow-sm hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-300 w-full"
-              onClick={() => {
-                /* logic to navigate to courses */
-              }}
+              onClick={seeProgram} // It has to be modified
             >
-              Ver cursos
+              Ver Planes {/* Ver Cursos (Productos separados) */}
             </button>
             <button
               className="px-4 py-2 bg-green-500 text-white text-base font-medium rounded-md shadow-sm hover:bg-green-400 focus:outline-none focus:ring-2 focus:ring-green-300 w-full"
-              onClick={() => {
-                /* logic to restart the test */
-              }}
+              onClick={seeProgram}
             >
-              Empezar desde cero
+              Empezar desde Cero
             </button>
           </div>
         </div>
